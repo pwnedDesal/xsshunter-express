@@ -57,7 +57,7 @@ async function get_app_server() {
     // Making 100% sure this works like it should
     // https://youtu.be/aCbfMkh940Q?t=6
     app.use(async function(req, res, next) {
-		if(req.path.toLowerCase() === req.path) {
+		if(1=== 1) {
 			next();
 			return
 		}
